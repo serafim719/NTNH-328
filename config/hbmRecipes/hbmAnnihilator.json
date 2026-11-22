@@ -1,0 +1,287 @@
+{
+  "recipes": [
+    {
+      "key": {
+        "type": "dict",
+        "dict": "billetSilicon"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.chip\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.pellet_charged"
+      },
+      "milestones": [
+        {
+          "amount": 4096,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.chip_quantum\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.circuit",
+        "meta": 16
+      },
+      "milestones": [
+        {
+          "amount": 128,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.controller\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.circuit",
+        "meta": 27
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.Cutting-edge microchip\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.circuit",
+        "meta": 5
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.gasar\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "nuggetHafnium"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.gf\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "dustStrontium"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.strontium\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "billetUranium"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.gascent\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "CMBSteel"
+      },
+      "milestones": [
+        {
+          "amount": 10240,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.cmb\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotSteel"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.steel\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyPlastic"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.plastic\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyResistantAlloy"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.tcalloy\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.ammo_standard",
+        "meta": 34
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.bmg\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotRubber"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.rubber\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAluminum"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.aluminium\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.drive",
+        "meta": 4
+      },
+      "milestones": [
+        {
+          "amount": 64,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.soyuz\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.powder_chlorophyte"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.chlorophyte\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "nuggetBismuth"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.chip_bismoid\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyHardPlastic"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.hardplastic\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotFerrouranium"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.ferrouranium\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotStainlessSteel"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.stainless\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.ammo_arty",
+        "meta": 0
+      },
+      "milestones": [
+        {
+          "amount": 128,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.arty\"}"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.circuit",
+        "meta": 26
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints",1,0,"{pool:\"528.gaschip\"}"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Финал... Ещё... Немного... Совсем... Сколько?!..",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 20,
+        "OreDict:8": "",
+        "id:8": "hbm:item.circuit"
+      },
+      "name:8": "Т?. Конец Империй",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": -7829346949321113509,
+  "questLineIDLow:4": -7901432759509191484
+}

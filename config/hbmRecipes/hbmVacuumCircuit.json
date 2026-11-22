@@ -1,0 +1,43 @@
+{
+  "recipes": [
+    {
+      "wafer": [
+        ["item","hbm:item.circuit",8,8],
+        ["item","hbm:item.ingot_tcalloy",1]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",12,9],
+        ["item","hbm:item.circuit",64,1]
+      ],
+      "output": ["hbm:item.circuit",1,23],
+      "duration": 400,
+      "consumption": 2500
+    },
+    {
+      "wafer": [
+        ["item","hbm:item.circuit",16,7],
+        ["item","hbm:item.circuit",24,26]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",8,14],
+        ["item","hbm:item.circuit",2,23]
+      ],
+      "output": ["hbm:item.circuit",1,24],
+      "duration": 4000,
+      "consumption": 25000
+    },
+    {
+      "wafer": [
+        ["item","hbm:item.circuit",24,21],
+        ["item","hbm:item.circuit",3,24]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",12,12],
+        ["item","hbm:item.circuit",36,28]
+      ],
+      "output": ["hbm:item.circuit",1,25],
+      "duration": 40000,
+      "consumption": 250000
+    }
+  ]
+}

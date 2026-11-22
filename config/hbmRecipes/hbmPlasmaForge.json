@@ -1,0 +1,922 @@
+{
+  "recipes": [
+    {
+      "name": "plsm.plateeuphemium",
+      "inputItem": [
+        ["dict","ingotEuphemium",4],
+        ["dict","dustAstatine",3],
+        ["dict","dustBismuth"],
+        ["dict","gemVolcanic"],
+        ["dict","ingotOsmiridium"],
+        ["item","hbm:item.particle_digamma"]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_euphemium",1]]
+      ],
+      "duration": 600,
+      "power": 10000000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.platednt",
+      "inputItem": [
+        ["dict","ingotDineutronium",4],
+        ["item","hbm:item.powder_spark_mix",2],
+        ["dict","gemVolcanic"],
+        ["item","hbm:item.particle_digamma"]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_dineutronium",1]]
+      ],
+      "duration": 600,
+      "power": 10000000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.hde",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,1],
+        ["dict","plateTripleAnyBismoidBronze",10],
+        ["dict","plateSextupleCMBSteel",4],
+        ["item","hbm:item.ingot_cft",16],
+        ["item","hbm:tile.glass_ash"]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.part_generic",1,4]]
+      ],
+      "duration": 600,
+      "power": 25000000,
+      "ignitionTemp": 10000000
+    },
+    {
+      "name": "plsm.exsteelplating",
+      "inputItem": [
+        ["dict","plateTripleSteel",4],
+        ["dict","plateTitanium",4],
+        ["dict","boltSteel",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive"]]
+      ],
+      "duration": 40,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.exheavyframe",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4],
+        ["dict","ingotAnyPlastic",16],
+        ["dict","plateSextupleCopper",4],
+        ["dict","ingotDesh",4],
+        ["dict","boltTungsten",32]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,1]]
+      ],
+      "duration": 120,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.excircuit",
+      "inputItem": [
+        ["item","hbm:item.circuit",12,9],
+        ["item","hbm:item.circuit",8,1],
+        ["dict","ingotRubber",4]
+      ],
+      "inputFluid": [
+        ["FLUORINE",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,2]]
+      ],
+      "duration": 80,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.exleadplating",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",2],
+        ["dict","plateTripleLead",8],
+        ["dict","ingotBoron",2],
+        ["dict","ingotRubber",8]
+      ],
+      "inputFluid": [
+        ["LUBRICANT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,3]]
+      ],
+      "duration": 80,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.exferroplating",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",3,3],
+        ["dict","plateTripleFerrouranium",4],
+        ["dict","ingotAnyResistantAlloy",4]
+      ],
+      "inputFluid": [
+        ["UNSATURATEDS",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,4]]
+      ],
+      "duration": 240,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.excomputer",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",3,2],
+        ["item","hbm:item.circuit",4,16],
+        ["item","hbm:item.circuit",4,11],
+        ["item","hbm:tile.glass_quartz",8]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL",2000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,5]]
+      ],
+      "duration": 240,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.bronzetubes",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",2,10],
+        ["item","hbm:item.item_expensive",1,4],
+        ["dict","plateTripleAnyBismoidBronze",4],
+        ["dict","plateSextupleZirconium"]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,6]]
+      ],
+      "duration": 600,
+      "power": 1000000,
+      "ignitionTemp": 10000000
+    },
+    {
+      "name": "plsm.explastic",
+      "inputItem": [
+        ["dict","ingotAnyHardPlastic",4],
+        ["dict","ingotAnyPlastic",16],
+        ["dict","ingotRubber",8]
+      ],
+      "inputFluid": [
+        ["SOLVENT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,7]]
+      ],
+      "duration": 120,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.exgold",
+      "inputItem": [
+        ["dict","dustGold",64],
+        ["dict","dustGold",64]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,8]]
+      ],
+      "duration": 120,
+      "power": 100000,
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.cmbtubes",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",3,6],
+        ["dict","plateSextupleCMBSteel",6],
+        ["item","hbm:item.powder_chlorophyte",12]
+      ],
+      "inputFluid": [
+        ["REFORMGAS",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,13]]
+      ],
+      "duration": 6000,
+      "power": 10000000,
+      "ignitionTemp": 12500000
+    },
+    {
+      "name": "ass.exstainlessbeam",
+      "inputItem": [
+        ["dict","plateSextupleStainlessSteel",10],
+        ["dict","plateTripleAluminum",8],
+        ["dict","plateTripleTitanium",4],
+        ["dict","boltDuraSteel",32]
+      ],
+      "inputFluid": [
+        ["KRYPTON",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,10]]
+      ],
+      "duration": 120,
+      "power": 200000,
+      "ignitionTemp": 1500000
+    },
+    {
+      "name": "ass.exstainlessbeamalt",
+      "inputItem": [
+        ["dict","plateSextupleStainlessSteel",8],
+        ["dict","plateTripleAluminum",6],
+        ["dict","plateTripleTitanium",4],
+        ["dict","boltDuraSteel",16]
+      ],
+      "inputFluid": [
+        ["ARGON",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,10]]
+      ],
+      "duration": 120,
+      "power": 200000,
+      "ignitionTemp": 1500000
+    },
+    {
+      "name": "ass.exavionics",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",2,2],
+        ["item","hbm:item.circuit",16,22],
+        ["item","hbm:item.circuit",4,13],
+        ["item","hbm:item.part_generic",32,5]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL",2000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,11]]
+      ],
+      "duration": 320,
+      "power": 250000,
+      "ignitionTemp": 1500000
+    },
+    {
+      "name": "ass.exastro",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",2,11],
+        ["item","hbm:item.circuit",1,17],
+        ["item","hbm:item.circuit",32,28],
+        ["item","hbm:item.circuit",16,26]
+      ],
+      "inputFluid": [
+        ["XENON",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,12]]
+      ],
+      "duration": 400,
+      "power": 1000000,
+      "ignitionTemp": 7500000
+    },
+    {
+      "name": "plsm.weldiron",
+      "inputItem": [
+        ["dict","plateTripleIron",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,2600]]
+      ],
+      "duration": 50,
+      "power": 100,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldsteel",
+      "inputItem": [
+        ["dict","plateTripleSteel",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,30]]
+      ],
+      "duration": 50,
+      "power": 500,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldcopper",
+      "inputItem": [
+        ["dict","plateTripleCopper",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,2900]]
+      ],
+      "duration": 50,
+      "power": 1000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldtitanium",
+      "inputItem": [
+        ["dict","plateTripleTitanium",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,2200]]
+      ],
+      "duration": 300,
+      "power": 50000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldzirconium",
+      "inputItem": [
+        ["dict","plateTripleZirconium",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,4000]]
+      ],
+      "duration": 300,
+      "power": 10000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldaluminium",
+      "inputItem": [
+        ["dict","plateTripleAluminum",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,1300]]
+      ],
+      "duration": 150,
+      "power": 10000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldtcalloy",
+      "inputItem": [
+        ["dict","plateTripleTcAlloy",2]
+      ],
+      "inputFluid": [
+        ["OXYGEN",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,36]]
+      ],
+      "duration": 600,
+      "power": 1000000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldcdalloy",
+      "inputItem": [
+        ["dict","plateTripleCdAlloy",2]
+      ],
+      "inputFluid": [
+        ["OXYGEN",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,43]]
+      ],
+      "duration": 600,
+      "power": 1000000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldtungsten",
+      "inputItem": [
+        ["dict","plateTripleTungsten",2]
+      ],
+      "inputFluid": [
+        ["OXYGEN",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,7400]]
+      ],
+      "duration": 600,
+      "power": 250000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldcmb",
+      "inputItem": [
+        ["dict","plateTripleCMBSteel",2]
+      ],
+      "inputFluid": [
+        ["REFORMGAS",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,39]]
+      ],
+      "duration": 600,
+      "power": 10000000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldosmiridium",
+      "inputItem": [
+        ["dict","plateTripleOsmiridium",2]
+      ],
+      "inputFluid": [
+        ["REFORMGAS",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,7699]]
+      ],
+      "duration": 3000,
+      "power": 50000000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.weldstainless",
+      "inputItem": [
+        ["dict","plateTripleStainlessSteel",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.plate_welded",1,24001]]
+      ],
+      "duration": 125,
+      "power": 20000,
+      "autoSwitchGroup": "..autoswitch.weldPlates",
+      "ignitionTemp": 500000
+    },
+    {
+      "name": "plsm.fusionvessel",
+      "inputItem": [
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64],
+        ["item","hbm:tile.fusion_component",64,3],
+        ["item","hbm:tile.fusion_component",64,3],
+        ["item","hbm:tile.fusion_component",64,3],
+        ["item","hbm:tile.fusion_component",64,2],
+        ["item","hbm:tile.fusion_component",64,2],
+        ["item","hbm:item.circuit",4,18]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.fusion_torus"]]
+      ],
+      "duration": 1200,
+      "power": 2000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 3000000
+    },
+    {
+      "name": "plsm.icfcell",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",1,13],
+        ["item","hbm:item.ingot_cft",8],
+        ["item","hbm:tile.glass_quartz",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component",1,2]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfemitter",
+      "inputItem": [
+        ["dict","plateSextupleTungsten",8],
+        ["dict","wireDenseMagnetizedTungsten",16]
+      ],
+      "inputFluid": [
+        ["XENON",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component",1,3]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfcapacitor",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",3,4],
+        ["dict","wireDenseNeodymium",16],
+        ["dict","wireDenseSchrabidate",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component",1,4]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfturbo",
+      "inputItem": [
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","wireDenseDineutronium",8],
+        ["dict","wireDenseSchrabidate",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component",1,5]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfcasing",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,6],
+        ["dict","plateTripleSaturnite",4],
+        ["dict","ingotAnyHardPlastic",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component"]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfport",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,6],
+        ["dict","ingotAnyHardPlastic",16],
+        ["dict","wireDenseNeodymium",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_laser_component",1,1]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfcontroller",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,13],
+        ["item","hbm:item.item_expensive",12,7],
+        ["item","hbm:item.ingot_cft",64],
+        ["item","hbm:item.circuit",64,12],
+        ["item","hbm:item.circuit",1,20]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_controller"]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfscaffold",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_component"]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfvessel",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",2,13],
+        ["item","hbm:item.ingot_cft",16],
+        ["dict","plateSextupleTungsten",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_component",1,1]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfstructural",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",1,6],
+        ["dict","plateSextupleSteel",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.icf_component",1,3]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.icfcore",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",32,13],
+        ["dict","plateSextupleCMBSteel",64],
+        ["dict","wireDenseSchrabidate",64],
+        ["item","hbm:item.circuit",64,18],
+        ["item","hbm:item.item_expensive",32,5],
+        ["item","hbm:item.item_expensive",4,20]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.struct_icf_core"]]
+      ],
+      "duration": 3000,
+      "power": 500000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 5000000
+    },
+    {
+      "name": "plsm.icfpress",
+      "inputItem": [
+        ["dict","plateTripleGold",8],
+        ["item","hbm:item.motor",4],
+        ["item","hbm:item.circuit",1,12]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_icf_press"]]
+      ],
+      "duration": 800,
+      "power": 10000000,
+      "blueprintpool": "528.chlorophyte",
+      "ignitionTemp": 1000000
+    },
+    {
+      "name": "plsm.schrabhammer",
+      "inputItem": [
+        ["dict","blockSchrabidium",35],
+        ["item","hbm:item.billet_yharonite",64],
+        ["item","hbm:item.billet_yharonite",64],
+        ["item","hbm:item.coin_ufo"],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64],
+        ["item","hbm:item.fragment_meteorite",64]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.schrabidium_hammer"]]
+      ],
+      "duration": 6000,
+      "power": 10000000,
+      "ignitionTemp": 25000000
+    },
+    {
+      "name": "ass.fensusan",
+      "inputItem": [
+        ["item","hbm:item.ingot_electronium",64],
+        ["item","hbm:item.battery_pack",1,5],
+        ["item","hbm:item.item_expensive",64,13],
+        ["item","hbm:item.item_expensive",64,13],
+        ["dict","plateSextupleOsmiridium",64],
+        ["dict","plateSextupleOsmiridium",64],
+        ["dict","plateSextupleOsmiridium",64],
+        ["item","hbm:item.circuit",64,20],
+        ["item","hbm:item.circuit",64,30],
+        ["item","hbm:item.ingot_u238m2"],
+        ["item","hbm:item.ingot_cft",64],
+        ["item","hbm:item.ingot_cft",64]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_battery_redd"]]
+      ],
+      "duration": 6000,
+      "power": 50000000,
+      "ignitionTemp": 100000000
+    },
+    {
+      "name": "plsm.gerald",
+      "inputItem": [
+        ["item","hbm:item.plate_dineutronium",64],
+        ["item","hbm:item.circuit",64,18],
+        ["item","hbm:item.warhead_volcano",64],
+        ["item","hbm:item.item_expensive",64,13],
+        ["item","hbm:item.item_expensive",64,13],
+        ["item","hbm:item.part_generic",64,4],
+        ["item","hbm:item.part_generic",64,4],
+        ["item","hbm:item.part_generic",64,4],
+        ["item","hbm:item.circuit",64,20],
+        ["item","hbm:item.circuit",64,20],
+        ["item","hbm:item.circuit",64,30],
+        ["item","hbm:item.drive",64,9]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.sat_gerald"]]
+      ],
+      "duration": 288000,
+      "power": 200000000,
+      "ignitionTemp": 100000000
+    },
+    {
+      "name": "plsm.dfccore",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","wireDenseDineutronium",16],
+        ["item","hbm:item.circuit",12,20],
+        ["item","hbm:item.singularity_spark"],
+        ["item","hbm:item.powder_chlorophyte",64]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",12000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dfc_core"]]
+      ],
+      "duration": 12000,
+      "power": 1000000000,
+      "ignitionTemp": 100000000
+    },
+    {
+      "name": "plsm.dfcemitter",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","wireDenseStarmetal",16],
+        ["item","hbm:item.circuit",8,20],
+        ["item","hbm:item.circuit",4,30]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dfc_emitter"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dfcreceiver",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateTripleStarmetal",16],
+        ["item","hbm:item.circuit",8,20]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dfc_receiver"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dfcinjector",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateTripleSaturnite",16],
+        ["item","hbm:item.circuit",4,17]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dfc_injector"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dfcstabilizer",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","wireDenseSchrabidate",16],
+        ["item","hbm:item.circuit",8,20]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",4000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dfc_stabilizer"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dysonlauncher",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateSextupleCMBSteel",16],
+        ["dict","plateSextupleStainlessSteel",16],
+        ["item","hbm:item.circuit",8,17]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dyson_launcher"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dysonreceiver",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateSextupleCMBSteel",16],
+        ["item","hbm:item.crystal_xen"],
+        ["dict","wireDenseBSCCO",64],
+        ["dict","wireDenseBSCCO",64],
+        ["item","hbm:item.circuit",16,20]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dyson_receiver"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dysonconverterhe",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateSextupleCMBSteel",16],
+        ["dict","plateTripleStarmetal",16],
+        ["dict","wireDenseBSCCO",64],
+        ["item","hbm:item.circuit",4,20]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dyson_converter_he"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dysonconvertertu",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateSextupleCMBSteel",16],
+        ["dict","plateTripleStarmetal",16],
+        ["item","hbm:item.circuit",4,17]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dyson_converter_tu"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    },
+    {
+      "name": "plsm.dysonconverteranatmo",
+      "inputItem": [
+        ["dict","plateSextupleOsmiridium",16],
+        ["dict","plateSextupleCMBSteel",16],
+        ["dict","wireDenseDineutronium",16],
+        ["item","hbm:item.singularity_spark"],
+        ["item","hbm:item.circuit",16,20]
+      ],
+      "inputFluid": [
+        ["STELLAR_FLUX",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.dyson_converter_anatmogenesis"]]
+      ],
+      "duration": 1200,
+      "power": 10000000,
+      "ignitionTemp": 50000000
+    }
+  ]
+}

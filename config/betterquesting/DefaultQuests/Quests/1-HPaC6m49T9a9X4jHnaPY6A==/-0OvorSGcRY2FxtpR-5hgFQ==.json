@@ -1,0 +1,98 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 6477219865480087172,
+      "questIDLow:4": -7543961033038619327
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Использовать нержавеющую сталь - самое логичное, что может быть, ибо это каклегированная сталь, только лучше. А такой потенциал был проёбан в спейсе только ради того, чтобы космос в развитии был опционален. Нержавеющая сталь - топ и её использование логично, и её понадобиться очень много.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.ingot_stainless"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "is_final:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Самая логичная вещъ",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "poem_logo:8": "betterquesting:textures/gui/end_poem_logo.png",
+      "poem_music:8": "",
+      "poem_text:8": "betterquesting:texts/end_poem",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3392362064002660979,
+  "questIDLow:4": -8807111975628152811,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.cap_nuka"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ingot_stainless"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Любая история имеет конец, и этот раздел посвещён окончанию космической эпопеи и переход в конец игры.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12,
+        "OreDict:8": "",
+        "id:8": "hbm:item.item_expensive"
+      },
+      "name:8": "Т4. Конец близок",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": -2936947329966455193,
+  "questLineIDLow:4": -5353768566230067172
+}

@@ -1,12 +1,9 @@
-AAAAAAAAAAAAAAAAAAAAAA==: LV1 - Early Game
-AAAAAAAAAAAAAAAAAAAAAQ==: LV2 - Oil Age
-AAAAAAAAAAAAAAAAAAAAAg==: LV3 - Reactors Age
-enTskTtvRdajee3UMSgXKg==: LV3.5 - Space Age
-AAAAAAAAAAAAAAAAAAAAAw==: LV4 - End Game
-MJP4MeAmSTm_Di0iRHoQuw==: Tips and Tricks
-vNAB2bS7S9uSc1gAlAccnA==: Advanced Logistics
-7-1bBIkKRc6xhh5bwIGsjg==: Building and Decorating
-UJ4N6pDhQ5aGBxBW9j-BVw==: Farming and Cooking
-AAAAAAAAAAAAAAAAAAAABQ==: Applied Energistics 2
-7qWugdC9QfGJ31NktB0YqA==: OpenComputers
-DR3m8TVpSxKspj_MDcVlIA==: Kill All the Things
+I7bNqpqZTvm5HfVQEgk6FA==: Информация о сборке
+lJo7LYIhRny9sdz90-pvig==: Магазин крышек
+Py5mbrurSJC5N2IJm0RbDA==: Подготовка
+RJ_Bb6H2RMWEMgksnXkFdg==: Т0. Уже скоро...
+HPaC6m49T9a9X4jHnaPY6A==: Т1. Новые горизонты космоса
+uMYX5lCxT3-l3I8GVgQqkw==: Т2. Всё больше открытий
+ygwon13BS3qUVUBQvexJZg==: Т3. Код дрес!
+1z3d9slRRme1s5fawDRYHA==: Т4. Конец близок
+k1iSbmZtQFuSWHjE0NH0xA==: Т?. Конец Империй
