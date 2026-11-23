@@ -33,6 +33,24 @@
       "named": true
     },
     {
+      "name": "chem.OXIGEN",
+      "inputItem": [
+        ["dict","dustIron"]
+      ],
+      "inputFluid": [
+        ["PEROXIDE",1000]
+      ],
+      "outputFluid": [
+        ["OXYGEN",500],
+        ["WATER",500]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_iron"]]
+      ],
+      "duration": 20,
+      "power": 100
+    },
+    {
       "name": "chem.helium3",
       "inputItem": [
         ["item","hbm:tile.moon_turf"]
